@@ -1,0 +1,23 @@
+Model,"Train Score
+ROC-AUC","Test Score
+ROC-AUC",Parameters,Feature Importance
+Decision Tree,0.75,0.75,criterion: gini; max_depth: 7; max_features: 0.9; max_leaf_nodes: 15,"Shift length
+Workter type nurse
+Facility ID ba39
+Facility ID f82c"
+Decision Tree (unscaled),0.75,0.75,criterion: gini; max_depth: 7; max_features: 0.85; max_leaf_nodes: 15,"Shift length
+Worker type nurse
+Facility ID ba39
+Facility ID cbcd"
+Random Forest,0.79,0.8,max_depth:10; n_estimators: 200,"Shift length
+Total compensation
+Worker type nurse
+Hourly charge"
+Gradient Boosting (CatBoost),0.84,0.84,depth: 4; iterations: 300; l2_leaf_reg: 5; learning_rate: 0.1,"Shift length
+Total compensation
+Worker type nurse
+Hourly charge"
+Logistic Regression,0.7,0.72,C: 1.0; max_iter: 100; penalty: l2; solver: newton-cg,"Worker type nurse
+Night shift
+Facility ID ending ebff
+Facility ID ending 7b4b"
